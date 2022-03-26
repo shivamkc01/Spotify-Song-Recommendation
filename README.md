@@ -30,10 +30,10 @@ But, what is a 'favorite' song? I decided to label songs with more than 15 liste
 
 Why 15? When I plotted the song counts on a histogram, there was a substantial drop in song frequencies after 15. These cutoff seemed like a perfect place to differentiate songs that I casual listen to versus songs that I truly enjoy. 
 
-![favorite](data/favorite.png)
+![favorite](favorite.png)
 
 ### Conclusion, Results and Actionable Next Steps
-![Recommendations](data/recommendations.jpg)
+![Recommendations](recommendations.jpg)
 
 I was able to train a Logistic Regresssion model with a F1 score of 86% on unseen test data. The RandomForest model came in close at 84% while the DecisionTrees model was last at 73%. 
 
